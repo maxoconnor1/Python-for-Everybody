@@ -1,0 +1,7 @@
+usrfile = input("Please provide a file name: ")
+fhand = open(usrfile)
+for line in fhand:
+    words = line.split()
+    # print("Debug:", words)
+    if len(words) == 0 or words[0] != "From": continue
+    print(words[2])
