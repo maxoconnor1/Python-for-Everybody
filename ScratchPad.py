@@ -18,3 +18,4 @@ print(rx)
 txt = "<p>Please click <a href=http://www.dr-chuck.com>here</a></p>"
 rx = re.search("<.*>", txt)
 print(rx)
+
